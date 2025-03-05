@@ -1,0 +1,8 @@
+About : I have created web application using flask framework, serving the html pages and
+handling the http requests through routes.
+Purpose : The Purpose of application is to provide basic blogging platform where user can view 
+existing post, create, delete and update the post. 
+
+App run using Flask dev server.
+When you run Flask app locally, it starts development server to handle incomming requests. 
+The server listens on a specific ip address nd port combination 

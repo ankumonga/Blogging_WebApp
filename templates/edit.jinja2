@@ -1,0 +1,17 @@
+{% extends 'base.jinja2' %}
+{% block content %}
+<h1>Edit Post</h1>
+<form method="POST">
+    <div>
+        <label for="title">Title</label><br>
+        <input type="text" name="title" value="{{ post['title'] }}" required />
+    </div><br>
+    <div>
+        <label for="content">Content</label><br>
+        <textarea name="content" required>{{ post['content'] }}</textarea>
+    </div>
+    <div>
+        <input type="submit" value="Update Post" />
+    </div>
+</form>
+{% endblock %}
