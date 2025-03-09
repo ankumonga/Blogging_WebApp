@@ -1,1 +1,3 @@
-# Python_Project
+Python Project- 
+WebApp: Basic Blogging Platform
+
